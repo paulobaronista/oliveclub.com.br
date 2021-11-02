@@ -142,8 +142,6 @@
     <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/caixa-de-azeites.jpg" alt="Olive Club Batalha">
     <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/caixa-de-azeites-mobile.jpg" alt="Olive Club Batalha">
 </div>
-
-
 <div id="vantagens" class="container-fluid padding-off vantagens">
     <div class="container-fluid padding-off algumas-vantagens">
         <div class="container">
@@ -168,13 +166,6 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
 
 <!-- <div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
