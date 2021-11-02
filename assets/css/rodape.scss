@@ -1,0 +1,73 @@
+.caixa-de-azeites {
+    padding-top: 60px;
+}
+
+.vantagens {
+    background: url(../images/bg-footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+
+    .algumas-vantagens {
+        background: url(../images/algumas-vantagens.png);
+        background-size: cover;
+        background-position: top center;
+        padding-top: 70px;
+        padding-bottom: 120px;
+
+        h3 {
+            font-family: 'Rosellinda Alyamore';
+            color: #153707;
+            font-size: 85px;
+            line-height: 85px;
+            margin: 0 0 20px 0;
+        }
+    }
+}
+
+/* Extra Small */
+
+@media(max-width:767px) {
+
+    .caixa-de-azeites {
+        padding-top: 35px;
+    }
+
+    .vantagens {
+        background: url(../images/bg-footer-mobile.jpg);
+        background-size: cover;
+        background-position: center center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+
+        .algumas-vantagens {
+            background: url(../images/algumas-vantagens-mobile.png);
+            background-size: cover;
+            background-position: top center;
+            padding-top: 40px;
+            padding-bottom: 70px;
+
+            h3 {
+                font-size: 55px;
+                line-height: 55px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+
+/* Small */
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* Medium */
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* Large */
+
+@media(min-width:1200px) {}

@@ -1,0 +1,217 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  float: left;
+  top: 0;
+  left: 0;
+  z-index: 600;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0px;
+  min-height: auto;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.menu .navbar-collapse,
+.menu .navbar-form {
+  border-color: transparent;
+}
+
+.menu .nav > li {
+  margin-top: 8px;
+}
+
+.menu .nav > li > a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 7px 8px;
+  border-radius: 10px;
+}
+
+.menu .navbar-brand {
+  float: left;
+  height: auto;
+  padding: 0;
+  margin-left: 0px;
+}
+
+.menu .navbar-brand img {
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.menu .navbar-nav > li > a:focus,
+.menu .navbar-nav > li > a:hover {
+  color: #ffffff;
+  background-color: #bab165;
+}
+
+.menu .navbar-nav > li > a.active {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.menu .redes {
+  display: inline-block;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.menu .redes a {
+  width: 29px;
+  height: 29px;
+  float: right;
+}
+
+.menu .redes .whatsapp {
+  background: url(../images/whatsapp.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.menu .redes .whatsapp:hover {
+  background: url(../images/whatsapp_hover.png);
+}
+
+.menu .redes .instagram {
+  background: url(../images/insta.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.menu .redes .instagram:hover {
+  background: url(../images/insta_hover.png);
+}
+
+.menu .redes .facebook {
+  background: url(../images/face.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.menu .redes .facebook:hover {
+  background: url(../images/face_hover.png);
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .menu {
+    background: rgba(0, 0, 0, 0.6) !important;
+    padding-top: 0px;
+    height: 57px;
+  }
+  .menu .navbar-brand {
+    margin-left: 5px;
+  }
+  .menu .navbar-brand img {
+    width: 42%;
+    padding-top: 5px;
+  }
+  .menu .nav > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu .nav > li > a {
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 10px;
+    color: #fff;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  .menu #navbar {
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 11px;
+  }
+  .menu .redes {
+    display: none;
+  }
+  .menu .navbar-nav {
+    margin: 0px -15px;
+  }
+  .menu .navbar-toggle {
+    margin-top: 11px;
+    margin-right: 5px;
+    border-color: #ffffff;
+    margin-bottom: 0;
+  }
+  .menu .navbar-collapse {
+    border-top: 0px solid transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .menu .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  .menu .navbar-toggle:focus,
+  .menu .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  .menu .navbar-collapse,
+  .menu .navbar-form {
+    border-color: transparent;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu.active {
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 7px;
+  }
+  .menu.active .navbar-brand img {
+    width: 30%;
+  }
+  .menu {
+    padding-top: 15px;
+  }
+  .menu .navbar-brand img {
+    width: 30%;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu.active {
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 7px;
+  }
+  .menu.active .navbar-brand img {
+    width: 20%;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .menu.active {
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 7px;
+  }
+  .menu.active .nav > li {
+    margin-top: 0px;
+    margin-bottom: 3px;
+  }
+  .menu.active .nav > li > a {
+    padding: 7px 6px 5px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .menu.active .navbar-brand img {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=menu.css.map */
