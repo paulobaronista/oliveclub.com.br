@@ -8,6 +8,8 @@
     background-position: center center;
     padding-top: 100px;
     padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
 
     .algumas-vantagens {
         background: url(../images/algumas-vantagens.png);
@@ -23,6 +25,38 @@
             line-height: 85px;
             margin: 0 0 20px 0;
         }
+    }
+
+    .folha_4 {
+        position: absolute;
+        z-index: 100;
+        left: 16%;
+        top: 27%;
+        width: 14%;
+    }
+
+    .folha_5 {
+        position: absolute;
+        z-index: 100;
+        right: 6%;
+        top: 23%;
+        width: 17%;
+    }
+
+    .folha_6 {
+        position: absolute;
+        z-index: 100;
+        left: -5%;
+        top: 46%;
+        width: 22%;
+    }
+
+    .folha_7 {
+        position: absolute;
+        z-index: 100;
+        left: 2%;
+        top: 24%;
+        width: 12%;
     }
 }
 

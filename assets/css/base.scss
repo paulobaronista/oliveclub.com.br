@@ -206,20 +206,31 @@ p {
     height: 55px;
     line-height: 27px;
     display: block;
-    margin-bottom: 2px;
-    padding: 0 0;
+    margin-bottom: 1px;
+    padding: 17px 15px;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 2px;
     cursor: pointer;
     text-decoration: none;
 }
 
+.float-box a:hover {
+    width: 220px;
+    color: rgba(255, 255, 255, 1);
+}
+
 .float-box .mail {
-    background: url(../images/icone-mail.png) no-repeat center center;
+    background: url(../images/icone-mail.png) no-repeat right 14px center;
     background-color: rgba(0, 0, 0, 0);
     background-color: #bab165;
 }
 
 .float-box .whats {
-    background: url(../images/icone-zap.png) no-repeat center center;
+    background: url(../images/icone-zap.png) no-repeat right 5px center;
     background-color: rgba(0, 0, 0, 0);
     background-color: #bab165;
 }

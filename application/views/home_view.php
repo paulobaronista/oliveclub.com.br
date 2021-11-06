@@ -45,27 +45,28 @@
             </div>
         </section>
     </div>
-    <img class="img-responsive folha_1" src="<?= base_url(); ?>assets/images/folha_1.png" alt="Olive Club Batalha">
-    <img class="img-responsive folha_2" src="<?= base_url(); ?>assets/images/folha_2.png" alt="Olive Club Batalha">
+    <img class="img-responsive folha_1 wow animate__animated animate__fadeInDown animate__delay-1s" src="<?= base_url(); ?>assets/images/folha_1.png" alt="Olive Club Batalha">
+    <img class="img-responsive folha_2 wow animate__animated animate__fadeInDown animate__delay-1s" src="<?= base_url(); ?>assets/images/folha_2.png" alt="Olive Club Batalha">
+    <img class="img-responsive folha_3 wow animate__animated animate__fadeInDown animate__delay-1s" src="<?= base_url(); ?>assets/images/folha_3.png" alt="Olive Club Batalha">
 </div>
-<div id="como-funciona" class="container como-funciona">
+<div id="como-funciona" class="container como-funciona"> 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <h3>Como Funciona</h3>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-2">
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/1.png" alt="Olive Club Batalha">
             <h6>Escolha seu plano</h6>
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
             <p>São <strong>3 categorias</strong> que <br class="hidden-xs" />se adequam ao seu <br class="hidden-xs" />consumo com <br class="hidden-xs" />recorrência <strong>trimestral</strong>, <br class="hidden-xs" /><strong>quadrimestral</strong>, <br class="hidden-xs" /><strong>semestral</strong> ou <strong>anual</strong>.</p>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-3">
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/2.png" alt="Olive Club Batalha">
             <h6>Conclua sua compra</h6>
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
             <p>Após a sua escolha, <br class="hidden-xs" /><strong>coloque seus dados</strong>, e <br class="hidden-xs" /><strong>efetue a compra</strong> com <br class="hidden-xs" />toda a comodidade em <br class="hidden-xs" />um ambiente seguro.</p>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-4">
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/3.png" alt="Olive Club Batalha">
             <h6>Receba em casa</h6>
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
@@ -165,6 +166,10 @@
             </div>
         </div>
     </div>
+    <img class="img-responsive folha_4 wow animate__animated animate__fadeInDown animate__delay-1s hidden-xs" src="<?= base_url(); ?>assets/images/folha_4.png" alt="Olive Club Batalha">
+    <img class="img-responsive folha_5 wow animate__animated animate__fadeInDown animate__delay-2s hidden-xs" src="<?= base_url(); ?>assets/images/folha_5.png" alt="Olive Club Batalha">
+    <img class="img-responsive folha_6 wow animate__animated animate__fadeInDown animate__delay-3s hidden-xs" src="<?= base_url(); ?>assets/images/folha_6.png" alt="Olive Club Batalha">
+    <img class="img-responsive folha_7 wow animate__animated animate__fadeInDown animate__delay-4s hidden-xs" src="<?= base_url(); ?>assets/images/folha_7.png" alt="Olive Club Batalha">
 </div>
 
 <!-- <div id="cookies" class="cookies">

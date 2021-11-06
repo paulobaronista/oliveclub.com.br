@@ -14,6 +14,13 @@
         right: 3%;
         bottom: -5%;
     }
+
+    .folha_3 {
+        position: absolute;
+        z-index: 100;
+        right: 3%;
+        bottom: -5%;
+    }
 }
 
 .como-funciona {
@@ -171,6 +178,10 @@
         }
 
         .folha_2 {
+            max-width: 15%;
+        }
+
+        .folha_3 {
             max-width: 15%;
         }
     }
