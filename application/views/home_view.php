@@ -36,12 +36,12 @@
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Olive Club Batalha">
             </div>
             <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_01.jpg" alt="Olive Club Batalha">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Olive Club Batalha">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_02.jpg" alt="Olive Club Batalha">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_02.jpg" alt="Olive Club Batalha">
             </div>
             <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_01.jpg" alt="Olive Club Batalha">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Olive Club Batalha">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_03.jpg" alt="Olive Club Batalha">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_03.jpg" alt="Olive Club Batalha">
             </div>
         </section>
     </div>
@@ -172,7 +172,7 @@
     <img class="img-responsive folha_7 wow animate__animated animate__fadeInDown animate__delay-4s hidden-xs" src="<?= base_url(); ?>assets/images/folha_7.png" alt="Olive Club Batalha">
 </div>
 
-<!-- <div id="cookies" class="cookies">
+<div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
@@ -184,4 +184,4 @@
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
-</div> -->
+</div>

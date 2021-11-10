@@ -58,60 +58,59 @@
         color: #ffffff;
         background-color: #bab165;
     }
-    
+
     .navbar-nav>li>a.active {
         color: #ffffff;
         background-color: transparent;
     }
+}
 
-    .redes {
-        display: inline-block;
-        width: 100%;
-        margin-right: 10px;
+.redes {
+    display: inline-block;
+    width: 100%;
+    margin-right: 10px;
 
-        a {
-            width: 29px;
-            height: 29px;
-            float: right;
+    a {
+        width: 29px;
+        height: 29px;
+        float: right;
+    }
+
+    .whatsapp {
+        background: url(../images/whatsapp.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+
+        &:hover {
+            background: url(../images/whatsapp_hover.png);
         }
+    }
 
-        .whatsapp {
-            background: url(../images/whatsapp.png);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: 100%;
+    .instagram {
+        background: url(../images/insta.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
 
-            &:hover {
-                background: url(../images/whatsapp_hover.png);
-            }
+        &:hover {
+            background: url(../images/insta_hover.png);
         }
+    }
 
-        .instagram {
-            background: url(../images/insta.png);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: 100%;
-            margin-left: 8px;
-            margin-right: 8px;
+    .facebook {
+        background: url(../images/face.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
 
-            &:hover {
-                background: url(../images/insta_hover.png);
-            }
-        }
-
-        .facebook {
-            background: url(../images/face.png);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: 100%;
-
-            &:hover {
-                background: url(../images/face_hover.png);
-            }
+        &:hover {
+            background: url(../images/face_hover.png);
         }
     }
 }
-
 
 /* Extra Small */
 @media(max-width:767px) {
@@ -187,6 +186,7 @@
 
 /* Small */
 @media(min-width:768px) and (max-width:991px) {
+
     .menu.active,
     .menu.active2 {
         background: rgba(0, 0, 0, 0.6);
@@ -213,6 +213,7 @@
 
 /* Medium */
 @media(min-width:992px) and (max-width:1199px) {
+
     .menu.active,
     .menu.active2 {
         background: rgba(0, 0, 0, 0.6);
@@ -229,19 +230,23 @@
 
 /* Large */
 @media(min-width:1200px) {
+
     .menu.active,
     .menu.active2 {
         background: rgba(0, 0, 0, 0.6);
         padding-top: 7px;
+
         .nav>li {
             margin-top: 0px;
             margin-bottom: 3px;
         }
+
         .nav>li>a {
             padding: 7px 6px 5px;
             font-size: 10px;
             line-height: 10px;
         }
+
         .navbar-brand {
 
             img {

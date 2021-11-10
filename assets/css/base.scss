@@ -245,18 +245,23 @@ p {
     display: none;
 
     .box {
-        background-color: #56601d;
+        background: rgb(14, 38, 1);
+        background: -moz-linear-gradient(90deg, rgba(14, 38, 1, 1) 0%, rgba(21, 54, 7, 1) 51%, rgba(14, 38, 1, 1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(14, 38, 1, 1) 0%, rgba(21, 54, 7, 1) 51%, rgba(14, 38, 1, 1) 100%);
+        background: linear-gradient(90deg, rgba(14, 38, 1, 1) 0%, rgba(21, 54, 7, 1) 51%, rgba(14, 38, 1, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e2601", endColorstr="#0e2601", GradientType=1);
         padding-top: 20px;
         padding-bottom: 20px;
         position: absolute;
         bottom: 20px;
+        border-radius: 10px;
 
         p {
-            font-family: 'Proxima Nova Rg';
-            font-weight: 300;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
             font-style: normal;
             color: #fff;
-            font-size: 12px;
+            font-size: 11px;
             line-height: 14px;
             margin-top: 7px;
 
@@ -267,71 +272,29 @@ p {
         }
 
         .btn_cookie {
-            font-family: 'Proxima Nova Rg';
+            font-family: 'Montserrat', sans-serif;
             font-weight: bold;
             font-style: normal;
             font-size: 16px;
             line-height: 16px;
-            color: #fff;
+            color: #233e0b;
             border: 0px solid transparent;
             border-radius: 50px;
             padding: 12px 30px;
             width: 160px;
-            margin-top: 7px;
+            margin-top: 8px;
             box-shadow: none;
-            background: #bab355;
+            background: #e4c864;
         }
     }
-}
-
-.modalPascoa {
-    background-color: rgba(0, 0, 0, 0.5);
-
-    .modal-content {
-        background-color: #000;
-        border: 0px solid transparent;
-        box-shadow: none;
-    }
-
-    .modal-body {
-        padding: 8px;
-    }
-
-    .close {
-        font-size: 27px;
-        color: #fff;
-        text-shadow: none;
-        opacity: 1;
-        position: absolute;
-        top: -20px;
-        right: -20px;
-        z-index: 100;
-    }
-}
-
-#view-receita {
-    width: 1px;
-    height: 1px;
-    background-color: red;
-    position: absolute;
-    top: 30.3%;
 }
 
 @media (min-width: 768px) {
-    .modalPascoa {
-        .modal-dialog {
-            margin: 6% auto 0;
-        }
-    }
 }
 
 
 /* Extra Small */
 @media(max-width:767px) {
-    #view-receita {
-        top: 0%;
-    }
-
     .aviso {
         div {
             margin: 30% auto 0;
@@ -355,17 +318,6 @@ p {
             .btn_cookie {
                 margin-top: 20px;
             }
-        }
-    }
-
-    .modalPascoa {
-        .modal-dialog {
-            margin: 25% auto 0;
-        }
-
-        .close {
-            top: -30px;
-            right: 5px;
         }
     }
 }
