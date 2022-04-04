@@ -1,18 +1,14 @@
 footer {
     .faixa-clube {
-        padding-top: 20px;
+        padding-top: 30px;
         padding-bottom: 20px;
-        background: rgb(14, 38, 1);
-        background: -moz-linear-gradient(90deg, rgba(14, 38, 1, 1) 0%, rgba(21, 54, 7, 1) 51%, rgba(14, 38, 1, 1) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(14, 38, 1, 1) 0%, rgba(21, 54, 7, 1) 51%, rgba(14, 38, 1, 1) 100%);
-        background: linear-gradient(90deg, rgba(14, 38, 1, 1) 0%, rgba(21, 54, 7, 1) 51%, rgba(14, 38, 1, 1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e2601", endColorstr="#0e2601", GradientType=1);
+        background-image: url('../images/bg-info.jpg');
 
         p {
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
             font-size: 14px;
-            line-height: 14px;
+            line-height: 25px;
             color: #ffffff;
         }
 
@@ -86,7 +82,7 @@ footer {
 @media(max-width:767px) {
     footer {
         .faixa-clube {
-            padding-top: 15px;
+            padding-top: 30px;
             padding-bottom: 15px;
 
             p {

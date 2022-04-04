@@ -1,65 +1,3 @@
-.caixa-de-azeites {
-    padding-top: 60px;
-}
-
-.vantagens {
-    background: url(../images/bg-footer.jpg);
-    background-size: cover;
-    background-position: center center;
-    padding-top: 100px;
-    padding-bottom: 80px;
-    position: relative;
-    overflow: hidden;
-
-    .algumas-vantagens {
-        background: url(../images/algumas-vantagens.png);
-        background-size: cover;
-        background-position: top center;
-        padding-top: 70px;
-        padding-bottom: 120px;
-
-        h3 {
-            font-family: 'Rosellinda Alyamore';
-            color: #153707;
-            font-size: 85px;
-            line-height: 85px;
-            margin: 0 0 20px 0;
-        }
-    }
-
-    .folha_4 {
-        position: absolute;
-        z-index: 100;
-        left: 16%;
-        top: 27%;
-        width: 14%;
-    }
-
-    .folha_5 {
-        position: absolute;
-        z-index: 100;
-        right: 6%;
-        top: 23%;
-        width: 17%;
-    }
-
-    .folha_6 {
-        position: absolute;
-        z-index: 100;
-        left: -5%;
-        top: 46%;
-        width: 22%;
-    }
-
-    .folha_7 {
-        position: absolute;
-        z-index: 100;
-        left: 2%;
-        top: 24%;
-        width: 12%;
-    }
-}
-
 /* Extra Small */
 
 @media(max-width:767px) {
@@ -68,27 +6,7 @@
         padding-top: 35px;
     }
 
-    .vantagens {
-        background: url(../images/bg-footer-mobile.jpg);
-        background-size: cover;
-        background-position: center center;
-        padding-top: 40px;
-        padding-bottom: 20px;
-
-        .algumas-vantagens {
-            background: url(../images/algumas-vantagens-mobile.png);
-            background-size: cover;
-            background-position: top center;
-            padding-top: 40px;
-            padding-bottom: 70px;
-
-            h3 {
-                font-size: 55px;
-                line-height: 55px;
-                margin-bottom: 10px;
-            }
-        }
-    }
+    
 }
 
 
