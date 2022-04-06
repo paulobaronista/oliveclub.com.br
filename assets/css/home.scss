@@ -50,7 +50,7 @@
 
         .garantia {
             margin-top: 10px;
-            
+
             h4 {
                 font-family: 'Montserrat', sans-serif;
                 color: #2d5220;
@@ -64,7 +64,7 @@
                 font-size: 18px;
                 font-weight: bold;
                 color: #bab165;
-                line-height: 17px;
+                line-height: 21px;
             }
         }
     }
@@ -132,7 +132,7 @@
 
     .ouro,
     .prata,
-    .bronze{
+    .bronze {
         height: 75px;
 
         h3 {
@@ -144,10 +144,10 @@
             margin: 10px;
         }
     }
-    
+
     .box {
         padding-bottom: 110px;
-        
+
         h3 {
             font-family: 'Big Caslon';
             font-size: 50px;
@@ -163,7 +163,7 @@
             font-size: 17px;
             line-height: 23px;
             color: #ffffff;
-            
+
             span {
                 font-weight: 400;
             }
@@ -180,7 +180,7 @@
         .btn-bronze {
             background-color: #ae7550;
         }
-        
+
         a {
             font-family: 'Montserrat', sans-serif;
             font-weight: 600;
@@ -213,7 +213,7 @@
 
     .dois-meses,
     .quatro-meses,
-    .seis-meses{
+    .seis-meses {
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
         -ms-transition: all 0.2s linear;
@@ -292,7 +292,7 @@
 
             .garantia {
                 margin-top: 20px;
-                
+
                 h4 {
                     font-size: 17px;
                 }
@@ -319,6 +319,7 @@
     }
 
     .plano {
+        padding-bottom: 0;
 
         .ouro,
         .prata,
@@ -330,7 +331,7 @@
                 margin: 8px;
             }
         }
-        
+
         .box {
             padding-top: 70px;
             padding-bottom: 120px;
@@ -398,11 +399,11 @@
         }
     }
 
-    .vantagens{
-        .algumas-vantagens{    
+    .vantagens {
+        .algumas-vantagens {
             .garantia {
                 margin-top: 20px;
-                
+
                 h4 {
                     font-size: 26px;
                 }
@@ -413,7 +414,7 @@
             }
         }
     }
-    
+
     .plano {
 
         .ouro,
@@ -426,11 +427,11 @@
             }
         }
 
-        
+
         .box {
             padding-top: 90px;
             padding-bottom: 90px;
-            
+
             h3 {
                 font-size: 30px;
                 margin-top: 20px;

@@ -39,7 +39,7 @@
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha-footer.png" alt="Olive Clube Batalha">
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 padding-off text-center">
-                        <p> © 2021. Todos direitos reservados a OLIVE CLUB BATALHA.</p>
+                        <p> © 2022. Todos direitos reservados a OLIVE CLUB BATALHA.</p>
                     </div>
                     <div class="col-xs-12 hidden-xs col-sm-3 col-md-3 padding-off linha-footer">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha-footer.png" alt="Olive Clube Batalha">

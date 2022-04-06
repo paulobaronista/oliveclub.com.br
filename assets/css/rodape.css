@@ -1,1 +1,11 @@
-@media(max-width: 767px){.caixa-de-azeites{padding-top:35px}}
+/* Extra Small */
+@media (max-width: 767px) {
+  .caixa-de-azeites {
+    padding-top: 35px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=rodape.css.map */

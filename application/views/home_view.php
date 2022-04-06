@@ -86,23 +86,26 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <h3>Como Funciona</h3>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-2">
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/1.png" alt="Olive Club Batalha">
-            <h6>Escolha seu plano</h6>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
-            <p>São <strong>3 categorias</strong> que se<br class="hidden-xs" /> adequam ao seu <br class="hidden-xs" />consumo com <br class="hidden-xs" />frequência <strong>trimestral</strong>, <br class="hidden-xs" /><strong>quadrimestral</strong>, <br class="hidden-xs" /><strong>semestral</strong> ou <strong>anual</strong>.</p>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-3">
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/2.png" alt="Olive Club Batalha">
-            <h6>Conclua sua compra</h6>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
-            <p>Após a sua escolha, <br class="hidden-xs" /><strong>coloque seus dados</strong>, e <br class="hidden-xs" /><strong>efetue a assinatura</strong> com <br class="hidden-xs" />toda a comodidade em <br class="hidden-xs" />um ambiente seguro.</p>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-4">
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/3.png" alt="Olive Club Batalha">
-            <h6>Receba em casa</h6>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
-            <p>Receba em casa com <br class="hidden-xs" />toda a <strong>praticidade</strong> e o <br class="hidden-xs" /><strong>cuidado</strong> da marca <br class="hidden-xs" />Batalha,<br class="hidden-xs" /> Direto da fazenda para <br class="hidden-xs" />a sua mesa.</p>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-2">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/1.png" alt="Olive Club Batalha">
+                <h6>Escolha seu plano</h6>
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
+                <p>São <strong>3 categorias</strong> que se<br class="hidden-xs" /> adequam ao seu <br class="hidden-xs" />consumo com <br class="hidden-xs" />frequência <strong>trimestral</strong>, <br class="hidden-xs" /><strong>quadrimestral</strong>, <br class="hidden-xs" /><strong>semestral</strong> ou <strong>anual</strong>.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-3">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/2.png" alt="Olive Club Batalha">
+                <h6>Conclua sua compra</h6>
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
+                <p>Após a sua escolha, <br class="hidden-xs" /><strong>coloque seus dados</strong>, e <br class="hidden-xs" /><strong>efetue a assinatura</strong> com <br class="hidden-xs" />toda a comodidade em <br class="hidden-xs" />um ambiente seguro.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__zoomIn animate__delay-4">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/3.png" alt="Olive Club Batalha">
+                <h6>Receba em casa</h6>
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Olive Club Batalha">
+                <p>Receba em casa com <br class="hidden-xs" />toda a <strong>praticidade</strong> e o <br class="hidden-xs" /><strong>cuidado</strong> da marca <br class="hidden-xs" />Batalha,<br class="hidden-xs" /> Direto da fazenda para <br class="hidden-xs" />a sua mesa.</p>
+            </div>
         </div>
     </div>
 </div>
@@ -125,7 +128,7 @@
         <div class="col-sm-4 col-md-4 col-lg-4 bronze hidden-xs">
             <h3>Bronze</h3>
         </div>
-        
+
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ouro visible-xs">
             <h3>Ouro</h3>
         </div>
@@ -133,7 +136,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <h3>Dois meses</h3>
                 <p>
-                    Você receberá 1 caixa com 12<br /> 
+                    Você receberá 1 caixa com 12<br />
                     garrafas a cada 2 meses.<br />
                     Serão 6 caixas por ano.
                 </p>
@@ -147,7 +150,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <h3>Quatro meses</h3>
                 <p>
-                    Você receberá 1 caixa com 12<br />  
+                    Você receberá 1 caixa com 12<br />
                     garrafas a cada 4 meses.<br />
                     Serão 3 caixas por ano.
                 </p>
@@ -161,7 +164,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <h3>Seis meses</h3>
                 <p>
-                    Você receberá 1 caixa com 12<br /> 
+                    Você receberá 1 caixa com 12<br />
                     garrafas a cada 6 meses.<br />
                     Serão 2 caixas por ano.
                 </p>
